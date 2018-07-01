@@ -5,4 +5,89 @@
   Watch Image - https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png
   Glasses Image - https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png
   */
-  
+
+/* Universal Styles */
+
+html{
+  font-size: 18px;
+  font-family: helvetica;
+  margin: 0 auto;
+}
+
+body{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container{
+  margin: auto;
+  overflow: visible;
+  max-width: 960px;
+}
+
+.flex-container {
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h2, h4{
+  font-weight: bold;
+  color: white;
+}
+/* Header Section */
+
+header{
+  background-color: black;
+  display:flex;
+  align-items: center;
+  width: 100%;
+}
+header img{
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  height: 1.5rem;
+}
+
+header span{
+  color: white;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+/* Main Section */
+
+#banner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  height: 25rem;
+}
+
+.banner-content{
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+  margin-left: 0;
+
+}
+
+.banner-content h4{
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.banner-content h2{
+  font-size: 2rem;
+}
